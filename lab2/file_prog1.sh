@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Shell Program to accept a filename from the User and display the attributes,contents and word count of the file"
+#Shell Program to accept a filename from the User and display the attributes,contents and word count of the file
 echo "Enter the filename:\c"
 read filname
 echo "The attributes of the file $filname is:"
