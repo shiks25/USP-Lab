@@ -8,7 +8,7 @@ read num
 
 sum=0
 x=0
-while [ $x -lt $num ]  
+while [ $x -le $num ]  
 do
 	sum=$((sum+x))
 	x=$((x+2))
