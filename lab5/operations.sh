@@ -6,7 +6,7 @@ echo "Enter two numbers:"
 read a
 read b
 
-echo "Enter 1 for addition,2 for subtaction,3 for multiplication, 4 for division,5 for remainder"
+echo "Enter 1 for addition,2 for subtraction,3 for multiplication, 4 for division,5 for remainder"
 read choice
 
 case $choice in
@@ -23,7 +23,7 @@ case $choice in
 	echo "Quotient is $div"
 ;;
 "5" ) rem=`expr $a % $b`
-	echo "Remainder is $rem"
+	echo "Modulus is $rem"
 ;;
 * ) echo "Enter an appropriate choice"
 ;;
