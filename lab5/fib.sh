@@ -12,9 +12,6 @@ sum=0
 if [ $n -eq 1 ]
 then
 	echo $fib0
-elif [ $n -eq 2 ]
-then
-	echo "$fib0 $fib1"
 else
 	echo "$fib0 $fib1 \c"
 	count=2
