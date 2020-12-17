@@ -8,7 +8,7 @@ int main(int argc,char *argv[])
  struct stat statbuf;
  
  if(lstat(argv[1], &statbuf) == -1){
- 	printf("Couldn't Stat File");
+ 	printf("Stat Error");
  	exit(0);
  }
  printf("File : %s\n", argv[1]);
